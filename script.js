@@ -117,10 +117,10 @@ function loadImages() {
     // Tail
 
     snakeTailUp = new Image();
-    snakeTailUp.src = "./images/Snake tail up.png";
+    snakeTailUp.src = "./images/Snake tail Up.png";
 
     snakeTailDown = new Image();
-    snakeTailDown.src = "./images/Snake tail down.png";
+    snakeTailDown.src = "./images/Snake tail Down.png";
 
     snakeTailLeft = new Image();
     snakeTailLeft.src = "./images/Snake tail left.png";
@@ -574,4 +574,5 @@ function resetGame() {
     draw();
 
 }
+
 
