@@ -131,7 +131,7 @@ function loadImages() {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
             resolve({ status: 'ok' })
-        }, 50)
+        }, 150)
     });
 }
 
@@ -574,3 +574,4 @@ function resetGame() {
     draw();
 
 }
+
