@@ -103,16 +103,16 @@ function loadImages() {
     // Mid Body Turns
 
     snakeMidBodyRightDown = new Image();
-    snakeMidBodyRightDown.src = "./Images/Snake Mid Body Right Down.png";
+    snakeMidBodyRightDown.src = "./images/Snake Mid Body Right Down.png";
 
     snakeMidBodyDownLeft = new Image();
-    snakeMidBodyDownLeft.src = "./Images/Snake Mid Body Down Left.png";
+    snakeMidBodyDownLeft.src = "./images/Snake Mid Body Down Left.png";
 
     snakeMidBodyLeftUp = new Image();
-    snakeMidBodyLeftUp.src = "./Images/Snake Mid Body Left Up.png";
+    snakeMidBodyLeftUp.src = "./images/Snake Mid Body Left Up.png";
 
     snakeMidBodyUpRight = new Image();
-    snakeMidBodyUpRight.src = "./Images/Snake Mid Body Up Right.png";
+    snakeMidBodyUpRight.src = "./images/Snake Mid Body Up Right.png";
 
     // Tail
 
@@ -572,4 +572,5 @@ function resetGame() {
     foodY = foodXY[1];
 
     draw();
+
 }
